@@ -1,0 +1,26 @@
+Package: ProtPQN
+Type: Package
+Title: Protein-Specific Probabilistic Quotient Normalization for Affinity Proteomics Data From Liquid Biopsies
+Version: 1.0.0
+Authors@R: c(
+  person("Hampus", "Hagelin", email = "hampus.hagelin@scilifelab.se", role = c("aut")),
+  person("Leo", "Dahl", email = "leo.dahl@scilifelab.se", role = c("aut", "cre")),
+  person("Annika", "Bendes", role = c("ctb")),
+  person("Jochen", "Schwenk", role = c("ctb")),
+  person("Mun-Gwan", "Hong", role = c("aut")))
+Description: Apply Protein-specific Probabilistic Quotient Normalization (ProtPQN) to affinity proteomics data from liquid biopsies.
+    Use on any wide-format matrix or data frame containing protein measurements,
+    or use a wrapper function to apply on wide or long data with options for transforming back from
+    log-scale data before normalization and normalization in a panel/kit-wise manner.
+    The normalization method is based on Probabilistic Quotient Normalization (Dieterle et al., 2006).
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    dplyr,
+    tidyr,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
