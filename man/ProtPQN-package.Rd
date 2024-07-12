@@ -13,7 +13,7 @@ Apply Protein-specific Probabilistic Quotient Normalization (ProtPQN) to affinit
 
 Authors:
 \itemize{
-  \item Hampus Hagelin \email{hampus.hagelin@scilifelab.se}
+  \item Hampus Hagelin
   \item Mun-Gwan Hong
 }
 
