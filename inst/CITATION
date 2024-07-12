@@ -8,7 +8,7 @@ bibentry(
                person("Jochen", "Schwenk")),
     year = 2024,
     howpublished = "Zenodo",
-    doi = "10.5281/zenodo.12731706",
+    doi = "10.5281/zenodo.12731705",
     header = "To use package 'ProtPQN' in publications use the following Zenodo repository. The DOI is for the whole repository and links to the latest release. See the Zenodo page for the DOI of a specific version."
 )
 
