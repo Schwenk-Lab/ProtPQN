@@ -1,8 +1,8 @@
 #' ProtPQN
 #'
-#' Perform Protein-specific Probabilistic Quotient Normalization on a matrix.
+#' Perform Protein-specific Probabilistic Quotient Normalization on a matrix or data frame.
 #'
-#' @param X Data frame in wide format containing only protein measurements to be normalized. SampleIDs could e.g. be stored as rownames.
+#' @param X Matrix or data frame in wide format containing only protein measurements to be normalized. Sample IDs could e.g. be stored as rownames.
 #'
 #' @return Output is a data frame or matrix in the same format as input with normalized protein levels.
 #' @export
