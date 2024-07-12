@@ -1,0 +1,14 @@
+bibentry(
+    "Misc",
+    title = "Schwenk-Lab/ProtPQN",
+    author = c(person("Leo", "Dahl"),
+               person("Hampus", "Hagelin"),
+               person("Mun-Gwan", "Hong"),
+               person("Annika", "Bendes"),
+               person("Jochen", "Schwenk")),
+    year = 2024,
+    howpublished = "Zenodo",
+    doi = "10.5281/zenodo.12731706",
+    header = "To use package 'ProtPQN' in publications use the following Zenodo repository. The DOI is for the whole repository and links to the latest release. See the Zenodo page for the DOI of a specific version."
+)
+
